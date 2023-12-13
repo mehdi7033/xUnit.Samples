@@ -2,6 +2,15 @@ using System.Collections;
 
 namespace xUnit.Samples.Theory.ClassData
 {
+    public class TestDataGenerator : TheoryData<int, int, long>
+    {
+        public TestDataGenerator()
+        {
+            Add(1, 1, 2);
+            Add(2, 2, 4);
+        }
+    }
+
     public class CalculatorTestClassData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
@@ -22,6 +31,7 @@ namespace xUnit.Samples.Theory.ClassData
 
         [Theory]
         [ClassData(typeof(CalculatorTestClassData))]
+        //[ClassData(typeof(TestDataGenerator))]
         public void Add_ShouldReturnSum(int a, int b, long sum)
         {
             //arr

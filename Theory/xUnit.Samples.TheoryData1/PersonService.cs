@@ -1,4 +1,4 @@
-namespace xUnit.Samples.TheoryData1
+namespace xUnit.Samples.Theory.TheoryData1
 {
     public class PersonService
     {
