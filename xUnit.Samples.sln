@@ -5,21 +5,29 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theory", "Theory", "{A622F45A-7247-4F1D-97E1-159B41B600F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.InlineData", "Theory\xUnit.Samples.Theory.InlineData\xUnit.Samples.Theory.InlineData.csproj", "{6A23236E-56C8-478E-8ADA-AADE1A705D6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.InlineData", "Theory\xUnit.Samples.Theory.InlineData\xUnit.Samples.Theory.InlineData.csproj", "{6A23236E-56C8-478E-8ADA-AADE1A705D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.ClassData", "Theory\xUnit.Samples.Theory.ClassData\xUnit.Samples.Theory.ClassData.csproj", "{68DD3B9B-D8AC-45BF-92F7-BC23FB3BDE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.ClassData", "Theory\xUnit.Samples.Theory.ClassData\xUnit.Samples.Theory.ClassData.csproj", "{68DD3B9B-D8AC-45BF-92F7-BC23FB3BDE9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.MemberData1", "Theory\xUnit.Samples.Theory.MemberData1\xUnit.Samples.Theory.MemberData1.csproj", "{F070930E-B0B6-4ED7-8E69-E63BCE0C9283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.MemberData1", "Theory\xUnit.Samples.Theory.MemberData1\xUnit.Samples.Theory.MemberData1.csproj", "{F070930E-B0B6-4ED7-8E69-E63BCE0C9283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.MemberData2", "Theory\xUnit.Samples.Theory.MemberData2\xUnit.Samples.Theory.MemberData2.csproj", "{05833763-972F-4793-BC13-F246DC59D47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.MemberData2", "Theory\xUnit.Samples.Theory.MemberData2\xUnit.Samples.Theory.MemberData2.csproj", "{05833763-972F-4793-BC13-F246DC59D47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.TheoryData1", "Theory\xUnit.Samples.TheoryData1\xUnit.Samples.Theory.TheoryData1.csproj", "{204719C3-DE21-4514-A641-3EB8C495538D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.TheoryData1", "Theory\xUnit.Samples.TheoryData1\xUnit.Samples.Theory.TheoryData1.csproj", "{204719C3-DE21-4514-A641-3EB8C495538D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.Theory.TheoryData2", "Theory\xUnit.Samples.Theory.TheoryData2\xUnit.Samples.Theory.TheoryData2.csproj", "{9994538E-F271-4E45-A6BF-6FFB62881FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.Theory.TheoryData2", "Theory\xUnit.Samples.Theory.TheoryData2\xUnit.Samples.Theory.TheoryData2.csproj", "{9994538E-F271-4E45-A6BF-6FFB62881FA3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShareTestContext", "ShareTestContext", "{63443613-5A69-4AAE-9769-5A7B4DB3A159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.ShareTestContext.ClassFixture1", "ShareTestContext\xUnit.Samples.ShareTestContext.ClassFixture1\xUnit.Samples.ShareTestContext.ClassFixture1.csproj", "{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnit.Samples.ShareTestContext.ClassFixture1", "ShareTestContext\xUnit.Samples.ShareTestContext.ClassFixture1\xUnit.Samples.ShareTestContext.ClassFixture1.csproj", "{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestOutputHelper", "TestOutputHelper", "{6B5B6C3F-B00E-444B-A80D-D9CB89B6F00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.TestOutputHelper", "TestOutputHelper\xUnit.Samples.TestOutputHelper\xUnit.Samples.TestOutputHelper.csproj", "{DE789B57-65DC-4779-9D5E-4118A60D2423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkipTest", "SkipTest", "{3B5A6AA1-8EBB-4C61-82D1-C0C51D0F5ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Samples.SkipTest", "SkipTest\xUnit.Samples.SkipTest\xUnit.Samples.SkipTest.csproj", "{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +63,14 @@ Global
 		{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE789B57-65DC-4779-9D5E-4118A60D2423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE789B57-65DC-4779-9D5E-4118A60D2423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE789B57-65DC-4779-9D5E-4118A60D2423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE789B57-65DC-4779-9D5E-4118A60D2423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +83,8 @@ Global
 		{204719C3-DE21-4514-A641-3EB8C495538D} = {A622F45A-7247-4F1D-97E1-159B41B600F7}
 		{9994538E-F271-4E45-A6BF-6FFB62881FA3} = {A622F45A-7247-4F1D-97E1-159B41B600F7}
 		{7E0F51AB-3AD4-4021-8EF5-ED6323B4E158} = {63443613-5A69-4AAE-9769-5A7B4DB3A159}
+		{DE789B57-65DC-4779-9D5E-4118A60D2423} = {6B5B6C3F-B00E-444B-A80D-D9CB89B6F00B}
+		{BCB4D89E-41A7-4884-9F5E-ACC289FA26A9} = {3B5A6AA1-8EBB-4C61-82D1-C0C51D0F5ABC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16ED376B-D6F6-45E4-A0C1-611A8712835A}
